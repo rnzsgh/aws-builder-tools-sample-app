@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.swp
+
+aws-builder-tools-sample-app.zip
+
+
+build
+
 # C extensions
 *.so
 
