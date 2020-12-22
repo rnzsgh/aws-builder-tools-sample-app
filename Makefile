@@ -17,7 +17,7 @@ push-seed:
 	@cp Dockerfile build
 	@cp requirements.txt build
 	@cd build; zip -rq ../$(ZIP) .
-	#@aws s3 cp --profile $(PROFILE) $(ZIP) s3://$(BUCKET)/$(ZIP)
+	@aws s3 cp --profile $(PROFILE) $(ZIP) s3://$(BUCKET)/$(ZIP)
 
 
 .PHONY: clean
